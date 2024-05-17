@@ -1,0 +1,5 @@
+verilog work "Z_Register.v"
+verilog work "Y_Register.v"
+verilog work "X_Register.v"
+verilog work "Majority.v"
+verilog work "main.v"

@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "D:/imageEncryption/Image_Encrypt/A5_1/main.xst" -ofn "D:/imageEncryption/Image_Encrypt/A5_1/main.syr" 
+xst -intstyle ise -ifn "D:/imageEncryption/Image_Encrypt/A5_1/main.xst" -ofn "D:/imageEncryption/Image_Encrypt/A5_1/main.syr" 
+xst -intstyle ise -ifn "D:/imageEncryption/Image_Encrypt/A5_1/main.xst" -ofn "D:/imageEncryption/Image_Encrypt/A5_1/main.syr" 
+xst -intstyle ise -ifn "D:/imageEncryption/Image_Encrypt/A5_1/main.xst" -ofn "D:/imageEncryption/Image_Encrypt/A5_1/main.syr" 
+xst -intstyle ise -ifn "D:/imageEncryption/Image_Encrypt/A5_1/main.xst" -ofn "D:/imageEncryption/Image_Encrypt/A5_1/main.syr" 
+xst -intstyle ise -ifn "D:/imageEncryption/Image_Encrypt/A5_1/main.xst" -ofn "D:/imageEncryption/Image_Encrypt/A5_1/main.syr" 
+xst -intstyle ise -ifn "D:/imageEncryption/Image_Encrypt/A5_1/main.xst" -ofn "D:/imageEncryption/Image_Encrypt/A5_1/main.syr" 
+xst -intstyle ise -ifn "D:/imageEncryption/Image_Encrypt/A5_1/main.xst" -ofn "D:/imageEncryption/Image_Encrypt/A5_1/main.syr" 
+xst -intstyle ise -ifn "D:/imageEncryption/Image_Encrypt/A5_1/main.xst" -ofn "D:/imageEncryption/Image_Encrypt/A5_1/main.syr" 
+xst -intstyle ise -ifn "D:/imageEncryption/Image_Encrypt/A5_1/main.xst" -ofn "D:/imageEncryption/Image_Encrypt/A5_1/main.syr" 
+xst -intstyle ise -ifn "D:/imageEncryption/Image_Encrypt/A5_1/main.xst" -ofn "D:/imageEncryption/Image_Encrypt/A5_1/main.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main.ngc main_synthesis.v 
+xst -intstyle ise -ifn "D:/imageEncryption/Image_Encrypt/A5_1/main.xst" -ofn "D:/imageEncryption/Image_Encrypt/A5_1/main.syr" 
