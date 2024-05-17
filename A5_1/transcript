@@ -1,0 +1,72 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do {A5_1_testbench.fdo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:23:23 on May 17,2024
+# vlog -reportprogress 300 Z_Register.v 
+# -- Compiling module Z_Register
+# 
+# Top level modules:
+# 	Z_Register
+# End time: 20:23:23 on May 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:23:23 on May 17,2024
+# vlog -reportprogress 300 Y_Register.v 
+# -- Compiling module Y_Register
+# 
+# Top level modules:
+# 	Y_Register
+# End time: 20:23:23 on May 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:23:23 on May 17,2024
+# vlog -reportprogress 300 X_Register.v 
+# -- Compiling module X_Register
+# 
+# Top level modules:
+# 	X_Register
+# End time: 20:23:23 on May 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:23:23 on May 17,2024
+# vlog -reportprogress 300 Majority.v 
+# -- Compiling module Majority
+# 
+# Top level modules:
+# 	Majority
+# End time: 20:23:23 on May 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:23:23 on May 17,2024
+# vlog -reportprogress 300 main.v 
+# -- Compiling module main
+# 
+# Top level modules:
+# 	main
+# End time: 20:23:23 on May 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:23:23 on May 17,2024
+# vlog -reportprogress 300 A5_1_testbench.v 
+# -- Compiling module A5_1_testbench
+# ** Error: A5_1_testbench.v(66): (vlog-2730) Undefined variable: 'trigger'.
+# ** Error: A5_1_testbench.v(84): (vlog-2730) Undefined variable: 'x_maj'.
+# ** Error: A5_1_testbench.v(84): (vlog-2730) Undefined variable: 'X'.
+# ** Error: A5_1_testbench.v(85): (vlog-2730) Undefined variable: 'y_maj'.
+# ** Error: A5_1_testbench.v(85): (vlog-2730) Undefined variable: 'Y'.
+# ** Error: A5_1_testbench.v(86): (vlog-2730) Undefined variable: 'z_maj'.
+# ** Error: A5_1_testbench.v(86): (vlog-2730) Undefined variable: 'Z'.
+# ** Error: A5_1_testbench.v(87): (vlog-2730) Undefined variable: 'maj_triggers'.
+# ** Error: A5_1_testbench.v(95): (vlog-2730) Undefined variable: 'x'.
+# ** Error: A5_1_testbench.v(96): (vlog-2730) Undefined variable: 'y'.
+# ** Error: A5_1_testbench.v(97): (vlog-2730) Undefined variable: 'z'.
+# ** Error: A5_1_testbench.v(98): (vlog-2730) Undefined variable: 'triggers'.
+# ** Error: A5_1_testbench.v(99): (vlog-2730) Undefined variable: 'out_im'.
+# ** Error: A5_1_testbench.v(99): (vlog-2730) Undefined variable: 'inp_im'.
+# End time: 20:23:23 on May 17,2024, Elapsed time: 0:00:00
+# Errors: 14, Warnings: 0
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./A5_1_testbench.fdo line 28
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog  "A5_1_testbench.v""

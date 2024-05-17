@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<document OS="nt64" product="ISE" version="14.5">
+<document OS="nt64" product="ISE" version="14.7">
 
   <!--The data in this file is primarily intended for consumption by Xilinx tools.
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Fri May 17 16:15:31 2024">
+  <application stringID="Xst" timeStamp="Fri May 17 16:28:08 2024">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="Path"/>
-          <item stringID="value" value="C:\Xilinx\14.5\ISE_DS\ISE\\lib\nt64;C:\Xilinx\14.5\ISE_DS\ISE\\bin\nt64;C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64;C:\Xilinx\14.5\ISE_DS\ISE\lib\nt64;C:\Xilinx\14.5\ISE_DS\ISE\..\..\..\DocNav;C:\Xilinx\14.5\ISE_DS\PlanAhead\bin;C:\Xilinx\14.5\ISE_DS\EDK\bin\nt64;C:\Xilinx\14.5\ISE_DS\EDK\lib\nt64;C:\Xilinx\14.5\ISE_DS\EDK\gnu\microblaze\nt64\bin;C:\Xilinx\14.5\ISE_DS\EDK\gnu\powerpc-eabi\nt64\bin;C:\Xilinx\14.5\ISE_DS\EDK\gnuwin\bin;C:\Xilinx\14.5\ISE_DS\EDK\gnu\arm\nt\bin;C:\Xilinx\14.5\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;C:\Xilinx\14.5\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;C:\Xilinx\14.5\ISE_DS\common\bin\nt64;C:\Xilinx\14.5\ISE_DS\common\lib\nt64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\TDM-GCC\bin;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PuTTY\;C:\Users\acer\AppData\Local\Microsoft\WindowsApps;D:\cmder\cmder.exe;C:\Users\acer\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\TDM-GCC\bin;C:\intelFPGA\18.1\modelsim_ase\win32aloem"/>
+          <item stringID="value" value="C:\Xilinx\14.7\ISE_DS\ISE\\lib\nt64;C:\Xilinx\14.7\ISE_DS\ISE\\bin\nt64;C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64;C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64;C:\Xilinx\14.7\ISE_DS\ISE\..\..\..\DocNav;C:\Xilinx\14.7\ISE_DS\PlanAhead\bin;C:\Xilinx\14.7\ISE_DS\EDK\bin\nt64;C:\Xilinx\14.7\ISE_DS\EDK\lib\nt64;C:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnuwin\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnu\arm\nt\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;C:\Xilinx\14.7\ISE_DS\common\bin\nt64;C:\Xilinx\14.7\ISE_DS\common\lib\nt64;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;D:\ITI EMBEDED\Embebed Systems AVR Tools\02- Toolchains\mingw64\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\Youssef\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Youssef\AppData\Local\Programs\Python\Python312\;D:\ITI EMBEDED\02- Toolchains\mingw64\bin;C:\Users\Youssef\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Youssef\.dotnet\tools;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\intelFPGA\18.1\modelsim_ase\win32aloem"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="PATHEXT"/>
@@ -20,36 +20,36 @@
         </row>
         <row stringID="row" value="2">
           <item stringID="variable" value="XILINX"/>
-          <item stringID="value" value="C:\Xilinx\14.5\ISE_DS\ISE\"/>
+          <item stringID="value" value="C:\Xilinx\14.7\ISE_DS\ISE\"/>
         </row>
         <row stringID="row" value="3">
-          <item stringID="variable" value="XILINXD_LICENSE_FILE"/>
-          <item stringID="value" value="D:\Xilinx ISE Design Suite 14.5\Crack\xilinx_ise.lic"/>
+          <item stringID="variable" value="XILINX_DSP"/>
+          <item stringID="value" value="C:\Xilinx\14.7\ISE_DS\ISE"/>
         </row>
         <row stringID="row" value="4">
-          <item stringID="variable" value="XILINX_DSP"/>
-          <item stringID="value" value="C:\Xilinx\14.5\ISE_DS\ISE"/>
+          <item stringID="variable" value="XILINX_EDK"/>
+          <item stringID="value" value="C:\Xilinx\14.7\ISE_DS\EDK"/>
         </row>
         <row stringID="row" value="5">
-          <item stringID="variable" value="XILINX_EDK"/>
-          <item stringID="value" value="C:\Xilinx\14.5\ISE_DS\EDK"/>
+          <item stringID="variable" value="XILINX_PLANAHEAD"/>
+          <item stringID="value" value="C:\Xilinx\14.7\ISE_DS\PlanAhead"/>
         </row>
         <row stringID="row" value="6">
-          <item stringID="variable" value="XILINX_PLANAHEAD"/>
-          <item stringID="value" value="C:\Xilinx\14.5\ISE_DS\PlanAhead"/>
+          <item stringID="variable" value="XILINX_VC_CHECK_NOOP"/>
+          <item stringID="value" value="DISABLE"/>
         </row>
       </table>
       <item stringID="User_EnvOs" value="OS Information">
         <item stringID="User_EnvOsname" value="Microsoft , 64-bit"/>
         <item stringID="User_EnvOsrelease" value="major release  (build 9200)"/>
       </item>
-      <item stringID="User_EnvHost" value="Mabona"/>
+      <item stringID="User_EnvHost" value="LAPTOP-ARD6UARL"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
-          <item stringID="arch" value="Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz"/>
-          <item stringID="speed" value="2712 MHz"/>
+          <item stringID="arch" value="AMD Ryzen 7 4800H with Radeon Graphics         "/>
+          <item stringID="speed" value="2895 MHz"/>
         </row>
       </table>
     </section>
@@ -144,7 +144,7 @@
         <item stringID="XST_KEEP_HIERARCHY" value="No"/>
       </section>
       <section stringID="XST_DESIGN_STATISTICS">
-        <item stringID="XST_IOS" value="89"/>
+        <item stringID="XST_IOS" value="90"/>
       </section>
       <section stringID="XST_CELL_USAGE">
         <item dataType="int" stringID="XST_BELS" value="1">
@@ -158,7 +158,7 @@
     <section stringID="XST_DEVICE_UTILIZATION_SUMMARY">
       <item stringID="XST_SELECTED_DEVICE" value="3s500efg320-4"/>
       <item AVAILABLE="4656" dataType="int" label="Number of Slices" stringID="XST_NUMBER_OF_SLICES" value="0"/>
-      <item dataType="int" label="Number of IOs" stringID="XST_NUMBER_OF_IOS" value="89"/>
+      <item dataType="int" label="Number of IOs" stringID="XST_NUMBER_OF_IOS" value="90"/>
       <item AVAILABLE="232" dataType="int" label="Number of bonded IOBs" stringID="XST_NUMBER_OF_BONDED_IOBS" value="1"/>
     </section>
     <section stringID="XST_PARTITION_RESOURCE_SUMMARY">
@@ -166,7 +166,7 @@
     </section>
     <section stringID="XST_ERRORS_STATISTICS">
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_ERRORS" value="0"/>
-      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="136"/>
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="135"/>
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="0"/>
     </section>
   </application>

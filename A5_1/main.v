@@ -22,11 +22,11 @@ module main(
 	input wire clk,
 	input wire reset,
 	input wire [63:0] secret_key,
+	input wire shift_bit,
 	input wire [21:0] public_key,
 	output wire encryption
     );
 
-	reg shift_bit;
 	wire [0:2] trigger;
 	wire x_maj,y_maj,z_maj;
 	wire x_out,y_out,z_out;
