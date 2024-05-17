@@ -1,4 +1,4 @@
-Release 14.7 Map P.20131013 (nt64)
+Release 14.5 Map P.58f (nt64)
 Xilinx Mapping Report File for Design 'main'
 
 Design Information
@@ -9,22 +9,29 @@ Target Device  : xc3s500e
 Target Package : fg320
 Target Speed   : -4
 Mapper Version : spartan3e -- $Revision: 1.55 $
-Mapped Date    : Fri May 17 20:22:43 2024
+Mapped Date    : Fri May 17 22:47:37 2024
 
 Design Summary
 --------------
 Number of errors:      0
 Number of warnings:    0
 Logic Utilization:
+  Number of Slice Flip Flops:            64 out of   9,312    1%
+  Number of 4 input LUTs:                70 out of   9,312    1%
 Logic Distribution:
-    Number of Slices containing only related logic:       0 out of       0   0%
-    Number of Slices containing unrelated logic:          0 out of       0   0%
+  Number of occupied Slices:             36 out of   4,656    1%
+    Number of Slices containing only related logic:      36 out of      36 100%
+    Number of Slices containing unrelated logic:          0 out of      36   0%
       *See NOTES below for an explanation of the effects of unrelated logic.
-  Number of bonded IOBs:                  1 out of     232    1%
+  Total Number of 4 input LUTs:          70 out of   9,312    1%
+  Number of bonded IOBs:                 67 out of     232   28%
+  Number of BUFGMUXs:                     1 out of      24    4%
 
-Peak Memory Usage:  4420 MB
+Average Fanout of Non-Clock Nets:                2.08
+
+Peak Memory Usage:  4408 MB
 Total REAL time to MAP completion:  2 secs 
-Total CPU time to MAP completion:   0 secs 
+Total CPU time to MAP completion:   1 secs 
 
 NOTES:
 
@@ -68,15 +75,6 @@ Section 2 - Warnings
 
 Section 3 - Informational
 -------------------------
-INFO:LIT:243 - Logical network clk has no load.
-INFO:LIT:395 - The above info message is repeated 88 more times for the
-   following (max. 5 shown):
-   reset,
-   shift_bit,
-   public_key<21>,
-   public_key<20>,
-   public_key<19>
-   To see the details of these info messages, please use the -detail switch.
 INFO:MapLib:562 - No environment variables are currently set.
 INFO:LIT:244 - All of the single ended outputs in this design are using slew
    rate limited output drivers. The delay on speed critical single ended outputs
@@ -84,14 +82,12 @@ INFO:LIT:244 - All of the single ended outputs in this design are using slew
 
 Section 4 - Removed Logic Summary
 ---------------------------------
-   1 block(s) optimized away
 
 Section 5 - Removed Logic
 -------------------------
 
-Optimized Block(s):
-TYPE 		BLOCK
-GND 		XST_GND
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
 
 Section 6 - IOB Properties
 --------------------------
@@ -100,7 +96,73 @@ Section 6 - IOB Properties
 | IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
 |                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| clk                                | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
 | encryption                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| key<0>                             | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<1>                             | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<2>                             | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<3>                             | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<4>                             | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<5>                             | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<6>                             | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<7>                             | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<8>                             | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<9>                             | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<10>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<11>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<12>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<13>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<14>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<15>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<16>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<17>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<18>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<19>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<20>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<21>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<22>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<23>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<24>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<25>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<26>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<27>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<28>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<29>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<30>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<31>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<32>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<33>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<34>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<35>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<36>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<37>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<38>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<39>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<40>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<41>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<42>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<43>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<44>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<45>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<46>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<47>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<48>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<49>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<50>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<51>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<52>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<53>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<54>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<55>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<56>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<57>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<58>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<59>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<60>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<61>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<62>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| key<63>                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| load                               | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Section 7 - RPMs

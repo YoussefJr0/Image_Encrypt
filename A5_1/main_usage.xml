@@ -4,14 +4,26 @@
      changes made to this file may result in unpredictable
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
-<DeviceUsageSummary rev="1">
-<DesignStatistics TimeStamp="Fri May 17 20:22:46 2024"><group name="MiscellaneousStatistics">
-<item name="AGG_BONDED_IO" rev="1">
+<DeviceUsageSummary rev="4">
+<DesignStatistics TimeStamp="Fri May 17 22:47:39 2024"><group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="4">
+<attrib name="value" value="67"/></item>
+<item name="AGG_IO" rev="4">
+<attrib name="value" value="67"/></item>
+<item name="AGG_SLICE" rev="4">
+<attrib name="value" value="36"/></item>
+<item name="NUM_4_INPUT_LUT" rev="4">
+<attrib name="value" value="70"/></item>
+<item name="NUM_BONDED_IBUF" rev="4">
+<attrib name="value" value="66"/></item>
+<item name="NUM_BONDED_IOB" rev="4">
 <attrib name="value" value="1"/></item>
-<item name="AGG_IO" rev="1">
+<item name="NUM_BUFGMUX" rev="4">
 <attrib name="value" value="1"/></item>
-<item name="NUM_BONDED_IOB" rev="1">
-<attrib name="value" value="1"/></item>
+<item name="NUM_SLICEL" rev="4">
+<attrib name="value" value="36"/></item>
+<item name="NUM_SLICE_FF" rev="4">
+<attrib name="value" value="64"/></item>
 </group>
 </DesignStatistics>
 <CmdHistory>

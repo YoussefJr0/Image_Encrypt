@@ -20,25 +20,22 @@
 //////////////////////////////////////////////////////////////////////////////////
 module main(
 	input wire clk,
-	input wire reset,
-	input wire [63:0] secret_key,
-	input wire shift_bit,
-	input wire [21:0] public_key,
+	input wire load,
+	input wire [63:0]key,
 	output wire encryption
     );
 
-	wire [0:2] trigger;
+	wire [2:0]trigger;
 	wire x_maj,y_maj,z_maj;
 	wire x_out,y_out,z_out;
 	wire [0:2] maj_triggers;
 
-	X_Register x(clk,shift_bit,trigger[0],reset,x_out,x_maj);
-	Y_Register y(clk,shift_bit,trigger[1],reset,y_out,y_maj);
-	Z_Register z(clk,shift_bit,trigger[2],reset,z_out,z_maj);
+	X_Register x_reg(clk,trigger[0],key[18:0],load,x_out,x_maj);
+	Y_Register y_reg(clk,trigger[1],key[40:19],load,y_out,y_maj);
+	Z_Register z_reg(clk,trigger[2],key[63:41],load,z_out,z_maj);
 
 	Majority maj(x_maj,y_maj,z_maj,trigger);
 
-
 	assign encryption = x_out ^ y_out ^ z_out;
-
+	
 endmodule

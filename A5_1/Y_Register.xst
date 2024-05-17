@@ -1,0 +1,5 @@
+set -tmpdir "D:/imageEncryption/Image_Encrypt/A5_1/xst/projnav.tmp"
+set -xsthdpdir "D:/imageEncryption/Image_Encrypt/A5_1/xst"
+elaborate
+-ifn Y_Register.prj
+-ifmt mixed

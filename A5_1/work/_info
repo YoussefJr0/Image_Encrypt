@@ -7,27 +7,68 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Youssef/Desktop/Image_Encrypt/Image_Encrypt/A5_1
-vmain
-Z1 !s110 1715966603
+Z0 dD:/imageEncryption/Image_Encrypt/A5_1
+vA5_1_testbench
+Z1 !s110 1715975443
 !i10b 1
-!s100 gA7GTQ7@H_cEzajNh73Go3
-IN=9ESD4TB4mbQ:AlMz;823
+!s100 1SD]N;G;l9CV6`YGRaI?S2
+I[fCj[m4Yl:TId<SVQ4KFh3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1715952485
-8main.v
-Fmain.v
-Z3 L0 21
-Z4 OV;L;10.5b;63
+w1715975364
+8A5_1_testbench.v
+FA5_1_testbench.v
+L0 25
+Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1715966603.000000
+Z4 !s108 1715975443.000000
+!s107 A5_1_testbench.v|
+!s90 -reportprogress|300|A5_1_testbench.v|
+!i113 1
+Z5 tCvgOpt 0
+n@a5_1_testbench
+vglbl
+R1
+!i10b 1
+!s100 UlJ]9LUWO:ZWoRO62F9fW3
+IRLRdH9fEjo>j9dLzVI0]K0
+R2
+R0
+w1364341843
+8C:/Xilinx/14.5/ISE_DS/ISE/verilog/src/glbl.v
+FC:/Xilinx/14.5/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Xilinx/14.5/ISE_DS/ISE/verilog/src/glbl.v|
+!s90 -reportprogress|300|C:/Xilinx/14.5/ISE_DS/ISE/verilog/src/glbl.v|
+!i113 1
+R5
+vmain
+R1
+!i10b 1
+!s100 X84H]b9bE3C>G81g7Jlb80
+IHMPjJf60NO`Bm8KVPj9gd3
+R2
+R0
+w1715975093
+8main.v
+Fmain.v
+Z6 L0 21
+R3
+r1
+!s85 0
+31
+R4
 !s107 main.v|
 !s90 -reportprogress|300|main.v|
 !i113 1
-Z6 tCvgOpt 0
+R5
 vMajority
 R1
 !i10b 1
@@ -35,80 +76,80 @@ R1
 I3T`:zLU[0maIL4:27agZA3
 R2
 R0
-Z7 w1715952243
+w1715967113
 8Majority.v
 FMajority.v
+R6
 R3
-R4
 r1
 !s85 0
 31
-R5
+R4
 !s107 Majority.v|
 !s90 -reportprogress|300|Majority.v|
 !i113 1
-R6
+R5
 n@majority
 vX_Register
 R1
 !i10b 1
-!s100 b^G?=0hd_;@MzdblH5D:`3
-Ih@g1V:na?9:Q[;f^HA^ee3
+!s100 UM0`o>m`k1TbM<Dn`E<n`1
+IVfWULPPieln1FU;@FoclX3
 R2
 R0
-R7
+w1715974924
 8X_Register.v
 FX_Register.v
+R6
 R3
-R4
 r1
 !s85 0
 31
-R5
+R4
 !s107 X_Register.v|
 !s90 -reportprogress|300|X_Register.v|
 !i113 1
-R6
+R5
 n@x_@register
 vY_Register
 R1
 !i10b 1
-!s100 ;]WkYT:AXU[@WM5[[nQBN1
-Ik2?zE]_M@R6FW<a:J[37^2
+!s100 Vn[PjL@58bmn7F9NkV6OD1
+IDM>CSEMJZ_2NM1<;3ZZTE2
 R2
 R0
-R7
+w1715974919
 8Y_Register.v
 FY_Register.v
+R6
 R3
-R4
 r1
 !s85 0
 31
-R5
+R4
 !s107 Y_Register.v|
 !s90 -reportprogress|300|Y_Register.v|
 !i113 1
-R6
+R5
 n@y_@register
 vZ_Register
 R1
 !i10b 1
-!s100 UXg_TRKZX0SQ@OSWRk^Gz3
-II17M=ihD2eZTATi7_i9;71
+!s100 [ReYXNL74a;;KdjQe6CMd1
+ImifOh>5UD5RElBeEP6jWB0
 R2
 R0
-R7
+w1715974907
 8Z_Register.v
 FZ_Register.v
+R6
 R3
-R4
 r1
 !s85 0
 31
-R5
+R4
 !s107 Z_Register.v|
 !s90 -reportprogress|300|Z_Register.v|
 !i113 1
-R6
+R5
 n@z_@register

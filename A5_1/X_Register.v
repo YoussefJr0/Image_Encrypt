@@ -20,11 +20,12 @@
 //////////////////////////////////////////////////////////////////////////////////
 module X_Register(
 		input wire clk,
-		input wire shift_bit,
 		input wire trigger,
-		input wire reset,
+		input wire [18:0]key,
+		input wire load,
 		output wire out_reg,
 		output wire x_maj
+//		output wire [18:0]x
     );
 
 	reg [18:0] x_reg;
@@ -35,19 +36,20 @@ module X_Register(
 	assign xored = x_reg[18] ^ x_reg[17] ^ x_reg[16] ^ x_reg[13];
 
 	// Current State Logic
-	always @(posedge clk,posedge reset)
+	always @(posedge clk)
 	begin
-		if (reset)
-			x_reg = 19'b0;
+		if (load)
+			x_reg = key;
 		else if (trigger)
 			x_reg = x_next;
 	end
 	
 	// Next State Logic 
-	assign x_next = {x_reg[18:1],xored ^ shift_bit};
+	assign x_next = {x_reg[17:0],xored};
 
 	assign x_maj = x_reg[8];
 
 	assign out_reg = x_reg[18];
-
+	
+//	assign x = x_reg;
 endmodule
