@@ -37,7 +37,7 @@ def make_array(file):
 
 
 
-file_0 = open("output.txt")
+file_0 = open("Decrypted.txt")
 # file_1 = open("dec_brightness.txt")
 # file_2 = open("threshold.txt")
 # file_3 = open("invert.txt")
@@ -45,7 +45,7 @@ img_array_0 = make_array(file_0)
 # img_array_1 = make_array(file_1)
 # img_array_2 = make_array(file_2)
 # img_array_3 = make_array(file_3)
-save_image(img_array_0,"output.jpeg")
+save_image(img_array_0,"Decrypted.jpeg")
 # save_image(img_array_1,"dec_brightness.jpg")
 # save_image(img_array_2,"threshold.jpg")
 # save_image(img_array_3,"invert.jpg")
