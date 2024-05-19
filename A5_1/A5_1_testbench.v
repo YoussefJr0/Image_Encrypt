@@ -35,7 +35,7 @@ module A5_1_testbench;
 
     // Instantiate the Unit Under Test (UUT)
     main uut (
-        .clk(clk), 
+        .clk(clk),
         .load(load),
         .key(secret_key),
         .encryption(encryption)
@@ -51,14 +51,15 @@ end
 initial
 begin
     secret_key = 64'b0110100001100001011100100110010001110111011000010111001001100101;
-    $readmemb("D:\\imageEncryption\\Image_Encrypt\\python_codes\\output.txt", inp_im);
+    $readmemb("D:\\imageEncryption\\Image_Encrypt\\python_codes\\encrypted\\output.txt", inp_im);
 end
 
 integer i, j;
 integer file;
+
 initial 
 begin
-    file = $fopen("D:\\imageEncryption\\Image_Encrypt\\python_codes\\Decrypted.txt", "w");
+    file = $fopen("D:\\imageEncryption\\Image_Encrypt\\python_codes\\decrypted\\output.txt", "w");
     if (file == 0) begin
         $display("Error: Could not open file.");
         $finish;
